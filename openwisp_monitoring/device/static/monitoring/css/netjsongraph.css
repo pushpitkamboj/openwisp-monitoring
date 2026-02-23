@@ -7,10 +7,10 @@
   position: relative;
   left: 0;
   right: 0;
-  background: #fbfbfb;
+  background: var(--ow-color-fg-ghost);
   border-radius: 2px;
-  border: 1px solid #ccc;
-  color: #6d6357;
+  border: 1px solid var(--border-color);
+  color: var(--body-quiet-color);
   line-height: 20px;
   max-width: 100%;
   min-width: 200px;
@@ -44,7 +44,7 @@
   background-size: 20px 20px !important;
 }
 .njg-container .marker-cluster div {
-  color: #fff;
+  color: var(--ow-color-white);
   background-color: rgba(53, 60, 68, 0.8) !important;
 }
 .njg-container .ok div {
@@ -73,7 +73,7 @@
   display: none;
 }
 .njg-container .njg-tooltip {
-  background: #fff !important;
+  background: var(--body-bg) !important;
   border: none !important;
 }
 .njg-container .njg-tooltip-item {
@@ -89,12 +89,12 @@
   flex-wrap: wrap;
   text-transform: capitalize;
   font-weight: 600;
-  color: #000;
+  color: var(--body-loud-color);
 }
 .njg-container .njg-tooltip-value {
   display: inline-flex;
   align-items: center;
   flex-wrap: wrap;
   flex-basis: 60%;
-  color: #000;
+  color: var(--body-loud-color);
 }
