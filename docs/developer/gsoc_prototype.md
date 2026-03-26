@@ -11,4 +11,4 @@ This prototype shows how a new client can be added and used by the main codebase
 ## docs for reference 
 https://influxdb-client.readthedocs.io/en/latest/index.html
 ## installation
-pip install influxdb-client==1.5.0
+pip install influxdb-client==1.50.0
