@@ -1,7 +1,7 @@
 ## Prototype summary
 
-- Implemented InfluxDB 2.7 support in `db.backends.influx2`.
-- Updated `__init__` and added the requirements needed for InfluxDB 2.7.
+- Implemented InfluxDB client 2.0 support in `db.backends.influx2`.
+- Updated `__init__` and added the requirements needed for InfluxDB 2.0
 - Added test cases.
 - note: I have implemented it completely except the chart queries. (wrote around 5queries, others can also be written similarly)
 
